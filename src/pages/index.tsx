@@ -1,15 +1,19 @@
 import Head from "next/head";
 
-export default function Home() {
+type Props = {
+  title: string;
+};
+
+export default function Home({ title = "React Avançado!" }: Props) {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className="title">React Avançado!</h1>
+        <h1 className="title">{title}</h1>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
