@@ -45,6 +45,7 @@
     "eslint-plugin-react-hooks": "^4.0.4",
     "husky": "^4.2.5",
     "jest": "^26.1.0",
+    "jest-styled-components": "^7.0.2",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "typescript": "^3.9.5"
