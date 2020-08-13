@@ -10,10 +10,4 @@ describe('<{{pascalCase name}} />', () => {
 
     expect(container.firstChild).toMatchSnapshot()
   })
-
-  it('should render the colors correctly', () => {
-    const { container } = render(<{{pascalCase name}} />)
-
-    expect(container.firstChild).toHaveStyle({ 'background-color': '#06092b' })
-  })
 })
