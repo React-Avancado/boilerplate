@@ -36,7 +36,7 @@
     "@babel/preset-typescript": "^7.10.4",
     "@storybook/addon-actions": "6.0.5",
     "@storybook/addon-knobs": "6.0.5",
-    "@storybook/addon-links": "6.0.5",
+    "@storybook/addon-links": "6.0.7",
     "@storybook/addons": "6.0.5",
     "@storybook/react": "6.0.6",
     "@testing-library/jest-dom": "^5.11.3",
