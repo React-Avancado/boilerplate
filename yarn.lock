@@ -7766,7 +7766,7 @@ globby@^10.0.1:
     merge2 "^1.2.3"
     slash "^3.0.0"
 
-globby@^11.0.0:
+globby@^11.0.1:
   version "11.0.1"
   resolved "https://registry.yarnpkg.com/globby/-/globby-11.0.1.tgz#9a2bf107a068f3ffeabc49ad702c79ede8cfd357"
   integrity sha512-iH9RmgwCmUJHi2z5o2l3eTtGBtXek1OYlHrbcxOYugyHLmAsZrPj43OtHThd62Buh/Vv6VyCBD2bdyWcGNQqoQ==
@@ -10299,13 +10299,13 @@ neo-async@^2.6.0:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-next-pwa@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/next-pwa/-/next-pwa-3.1.1.tgz#cbfc0627824da0ea834913a3c39b6387cd209b2c"
-  integrity sha512-IZIrI/x2iQUdTs8giz998rwaMhQWSlsfE3JWfumCB0eQ//V7Ejx1lRtfhZ4fzi8hKVFtXINVVKXjNlNejrlqCw==
+next-pwa@^3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/next-pwa/-/next-pwa-3.1.3.tgz#6a1456930ede02b708ed70bcd52e956e7edd66a6"
+  integrity sha512-f7w9a1JylXlDYb8WfvEtSphFyL9VeHDcGPTqgf+NecetSQ4nz6IFaZPwD2eARS8qmAlDhHmU83eC3qJnXXMmpg==
   dependencies:
     clean-webpack-plugin "^3.0.0"
-    globby "^11.0.0"
+    globby "^11.0.1"
     workbox-webpack-plugin "^5.1.3"
     workbox-window "^5.1.3"
 
