@@ -32,7 +32,7 @@
     "styled-components": "5.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.6",
+    "@babel/core": "^7.12.1",
     "@babel/preset-typescript": "^7.10.4",
     "@storybook/addon-essentials": "6.0.26",
     "@storybook/react": "6.0.26",
