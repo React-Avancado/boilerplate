@@ -3181,15 +3181,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*":
-  version "16.9.49"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.49.tgz#09db021cf8089aba0cdb12a49f8021a69cce4872"
-  integrity sha512-DtLFjSj0OYAdVLBbyjhuV9CdGVHCkHn2R+xr3XkBvK2rS1Y1tkc14XSGjYgm5Fjjr90AxH9tiSzc1pCFMGO06g==
-  dependencies:
-    "@types/prop-types" "*"
-    csstype "^3.0.2"
-
-"@types/react@^17.0.2":
+"@types/react@*", "@types/react@^17.0.2":
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.2.tgz#3de24c4efef902dd9795a49c75f760cbe4f7a5a8"
   integrity sha512-Xt40xQsrkdvjn1EyWe1Bc0dJLcil/9x2vAuW7ya+PuQip4UYUaXyhzWmAbwRsdMgwOFHpfp7/FFZebDU6Y8VHA==
@@ -3221,10 +3213,10 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.0.tgz#7036640b4e21cc2f259ae826ce843d277dad8cff"
   integrity sha512-RJJrrySY7A8havqpGObOB4W92QXKJo63/jFLLgpvOtsGUqbQZ9Sbgl35KMm1DjC6j7AvmmU2bIno+3IyEaemaw==
 
-"@types/styled-components@^5.1.7":
-  version "5.1.7"
-  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-5.1.7.tgz#3cd10b088c1cb1acde2e4b166b3e8275a3083710"
-  integrity sha512-BJzPhFygYspyefAGFZTZ/8lCEY4Tk+Iqktvnko3xmJf9LrLqs3+grxPeU3O0zLl6yjbYBopD0/VikbHgXDbJtA==
+"@types/styled-components@^5.1.8":
+  version "5.1.8"
+  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-5.1.8.tgz#41338fe060c543567ae94ab420036865a9b969d0"
+  integrity sha512-or4lQ12MhR4wTZ34rxRwI+Fw9vPqhd9WeEqFfF6yssDe1uS7L8p9YYMbmtDgHRbBKLR4aJIK8KHA0h9wSYifkg==
   dependencies:
     "@types/hoist-non-react-statics" "*"
     "@types/react" "*"
