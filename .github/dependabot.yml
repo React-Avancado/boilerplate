@@ -1,0 +1,175 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@types/node"
+    versions:
+    - 14.14.22
+    - 14.14.24
+    - 14.14.25
+    - 14.14.26
+    - 14.14.28
+    - 14.14.30
+    - 14.14.31
+    - 14.14.32
+    - 14.14.33
+    - 14.14.34
+    - 14.14.35
+    - 14.14.36
+    - 14.14.37
+    - 14.14.39
+    - 14.14.41
+    - 15.0.0
+  - dependency-name: eslint-config-prettier
+    versions:
+    - 8.0.0
+    - 8.1.0
+    - 8.2.0
+    - 8.3.0
+  - dependency-name: next-pwa
+    versions:
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.1.4
+    - 5.2.1
+    - 5.2.14
+    - 5.2.15
+    - 5.2.3
+    - 5.2.5
+    - 5.2.9
+  - dependency-name: eslint
+    versions:
+    - 7.21.0
+    - 7.22.0
+    - 7.25.0
+  - dependency-name: "@storybook/addon-essentials"
+    versions:
+    - 6.1.15
+    - 6.1.16
+    - 6.1.17
+    - 6.1.18
+    - 6.1.19
+    - 6.1.20
+    - 6.1.21
+    - 6.2.1
+    - 6.2.2
+    - 6.2.3
+    - 6.2.4
+    - 6.2.5
+    - 6.2.7
+    - 6.2.8
+    - 6.2.9
+  - dependency-name: "@storybook/react"
+    versions:
+    - 6.1.18
+    - 6.1.19
+    - 6.1.20
+    - 6.1.21
+    - 6.2.1
+    - 6.2.2
+    - 6.2.3
+    - 6.2.4
+    - 6.2.5
+    - 6.2.7
+    - 6.2.8
+    - 6.2.9
+  - dependency-name: "@testing-library/jest-dom"
+    versions:
+    - 5.11.10
+    - 5.12.0
+  - dependency-name: "@babel/core"
+    versions:
+    - 7.12.17
+    - 7.13.1
+    - 7.13.10
+    - 7.13.16
+    - 7.13.8
+  - dependency-name: jest-styled-components
+    versions:
+    - 7.0.4
+  - dependency-name: eslint-plugin-prettier
+    versions:
+    - 3.3.1
+    - 3.4.0
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+    - 4.0.2
+  - dependency-name: "@typescript-eslint/parser"
+    versions:
+    - 4.14.1
+    - 4.14.2
+    - 4.15.0
+    - 4.15.1
+    - 4.15.2
+    - 4.16.1
+    - 4.17.0
+    - 4.18.0
+    - 4.19.0
+    - 4.21.0
+  - dependency-name: styled-components
+    versions:
+    - 5.2.2
+  - dependency-name: next
+    versions:
+    - 10.0.5
+    - 10.0.6
+    - 10.0.7
+    - 10.1.2
+  - dependency-name: husky
+    versions:
+    - 4.3.8
+    - 5.0.9
+    - 5.1.0
+    - 5.1.1
+    - 5.2.0
+    - 6.0.0
+  - dependency-name: "@types/jest"
+    versions:
+    - 26.0.20
+    - 26.0.22
+  - dependency-name: eslint-plugin-react
+    versions:
+    - 7.23.0
+    - 7.23.1
+  - dependency-name: react-dom
+    versions:
+    - 17.0.2
+  - dependency-name: react
+    versions:
+    - 17.0.2
+  - dependency-name: "@typescript-eslint/eslint-plugin"
+    versions:
+    - 4.14.1
+    - 4.14.2
+    - 4.15.0
+    - 4.15.1
+    - 4.15.2
+    - 4.16.1
+    - 4.17.0
+    - 4.18.0
+    - 4.19.0
+  - dependency-name: "@types/styled-components"
+    versions:
+    - 5.1.8
+    - 5.1.9
+  - dependency-name: "@types/react"
+    versions:
+    - 17.0.3
+  - dependency-name: typescript
+    versions:
+    - 4.2.2
+    - 4.2.3
+  - dependency-name: "@babel/preset-typescript"
+    versions:
+    - 7.12.17
+    - 7.13.0
+  - dependency-name: "@testing-library/react"
+    versions:
+    - 11.2.3
+    - 11.2.5
