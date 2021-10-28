@@ -30,8 +30,6 @@
     "styled-components": "5.3.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.8",
-    "@babel/preset-typescript": "^7.15.0",
     "@storybook/addon-essentials": "6.3.10",
     "@storybook/react": "6.3.10",
     "@testing-library/jest-dom": "^5.14.1",
@@ -43,7 +41,6 @@
     "@typescript-eslint/eslint-plugin": "rc-v5",
     "@typescript-eslint/parser": "rc-v5",
     "babel-loader": "^8.2.2",
-    "babel-plugin-styled-components": "^1.13.2",
     "eslint": "^8.0.0",
     "eslint-config-next": "^11.1.2",
     "eslint-config-prettier": "^8.3.0",
