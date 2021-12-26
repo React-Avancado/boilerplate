@@ -11,8 +11,8 @@
     "test:watch": "jest --watch --maxWorkers=25%",
     "test:ci": "jest --runInBand",
     "generate": "yarn plop --plopfile generators/plopfile.js",
-    "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook -s ./public",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
     "postinstall": "husky install",
     "prepare": "husky install"
   },
@@ -30,9 +30,9 @@
     "styled-components": "5.3.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.8",
-    "@babel/preset-typescript": "^7.15.0",
     "@storybook/addon-essentials": "6.4.9",
+    "@storybook/builder-webpack5": "^6.4.9",
+    "@storybook/manager-webpack5": "^6.4.9",
     "@storybook/react": "6.4.9",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
@@ -55,6 +55,7 @@
     "plop": "^3.0.5",
     "prettier": "^2.4.1",
     "storybook-addon-next-router": "^3.0.8",
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.3",
+    "webpack": "5"
   }
 }
