@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@storybook/addon-essentials": "6.4.9",
-    "@storybook/builder-webpack5": "^6.4.9",
+    "@storybook/builder-webpack5": "^6.4.10",
     "@storybook/manager-webpack5": "^6.4.9",
     "@storybook/react": "6.4.9",
     "@testing-library/jest-dom": "^5.14.1",
