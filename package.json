@@ -41,7 +41,7 @@
     "@types/react": "^17.0.27",
     "@types/styled-components": "^5.1.21",
     "@typescript-eslint/eslint-plugin": "5.10.0",
-    "@typescript-eslint/parser": "5.10.0",
+    "@typescript-eslint/parser": "5.10.2",
     "eslint": "^8.7.0",
     "eslint-config-next": "^12.0.8",
     "eslint-config-prettier": "^8.3.0",
