@@ -24,12 +24,12 @@ export default class MyDocument extends Document {
       const initialProps = await Document.getInitialProps(ctx)
       return {
         ...initialProps,
-        styles: (
-          <>
+        styles: [
+          <div key={''}>
             {initialProps.styles}
             {sheet.getStyleElement()}
-          </>
-        )
+          </div>
+        ]
       }
     } finally {
       sheet.seal()
