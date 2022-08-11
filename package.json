@@ -27,7 +27,7 @@
     "next-pwa": "^5.3.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "styled-components": "5.3.3"
+    "styled-components": "5.3.5"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "6.4.17",
@@ -39,7 +39,7 @@
     "@types/jest": "^27.4.0",
     "@types/node": "^17.0.14",
     "@types/react": "^17.0.27",
-    "@types/styled-components": "^5.1.21",
+    "@types/styled-components": "^5.1.26",
     "@typescript-eslint/eslint-plugin": "5.10.2",
     "@typescript-eslint/parser": "5.10.2",
     "eslint": "^8.8.0",
