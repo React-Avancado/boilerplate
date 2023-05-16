@@ -33,7 +33,7 @@
     "@storybook/addon-essentials": "6.4.17",
     "@storybook/builder-webpack5": "^6.4.17",
     "@storybook/manager-webpack5": "^6.4.17",
-    "@storybook/react": "6.4.17",
+    "@storybook/react": "7.0.12",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.4.0",
